@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>filipa.martins@stellaxius.com</contactEmail>
+    <label>github</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDazCCAlMCFEkV+YXVAkSNQhwCzAjxxmvRoCb9MA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAlBUMQ8wDQYDVQQIDAZMaXNib24xDzANBgNVBAcMBkxpc2JvbjETMBEGA1UECgwKU3RlbGxheGl1czEsMCoGCSqGSIb3DQEJARYdZmlsaXBhLm1hcnRpbnNAc3RlbGxheGl1cy5jb20wHhcNMjEwMjI0MTAzNDM3WhcNMjIwMjI0MTAzNDM3WjByMQswCQYDVQQGEwJQVDEPMA0GA1UECAwGTGlzYm9uMQ8wDQYDVQQHDAZMaXNib24xEzARBgNVBAoMClN0ZWxsYXhpdXMxLDAqBgkqhkiG9w0BCQEWHWZpbGlwYS5tYXJ0aW5zQHN0ZWxsYXhpdXMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArfykXjqeb8NR9o1guTLavJKHC53xyW8MHaXi4MWQXB3lU2vXmERzfogSZ41tnuYUKnghyOV2vWNYl2del4jZDcEB1JfweLsO5ZTt9U38KhZfaYxH6U2XVC6qSk1t82Hjp28HdSKMCjWR3HrZpabxes6xGHk7LIAGUrZDHbcawTOXddOy5zAMLaXVk1vglK5GmWCJMcU9PRW7jvRFuTun9T96VFlx63rcIcjQAgwAfQgiNDVHICWdeVYNH5yrrhSnY7gMxt+F7Twt8rmUuid9mWsEGKmqgHso0PsNv4YUexoiMCj1hX2oLzCOnHF1oo2YEcuCeK4h5dlcLCpZBOCWvwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAE6qEGPPrfNEtMv82VhZSCrTy6H0Z0KbYdgrj1+scepGxA+lmBqt6yq7A0TvXSz3darf6LpG6L9Pn3Vh6U6lXyJi54RXcswVE6Kqv9skkY51WkdA0EeqblNr82sj1uIcuEPFVBYlkbfb/LRM3mkOfki9YaFbOFL/JpU8zdtGa5q1oLybny2MVcVnJpHJK+1PU2qb0FZV66gMigECgzDWTH8bTPozqr7c07GJypPA2XFFe1FpZ++xTzSISBY37Cv22PGJvHUZ7CzgURcbYlh5/FpXSL2itqtJ+RAdhaVq3rEMjSGAA+/ghFNtAE5Bd8/rwipFnVHyzoZtowsjFY06AK</certificate>
+        <consumerKey>3MVG9od6vNol.eBgenpD7BzVd1JXWRRzrOT.rgigZgmheNehLcwz0TGRaV_eTix.zdGYwMkcJP0LAgcaowvO9</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>github</permissionSetName>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
